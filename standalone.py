@@ -18,6 +18,7 @@ print("  ░  ▒    ░▒    ░▒ ░ ▒░ ░▒   ▒ ░ ░▒   ░ �
 print("░         ░     ░░   ░  ░    ▒ ░ ░    ░ ░  ░  ░  ")
 print("░ ░        ░     ░       ░   ░    ░     ░      ░ ")
 print("░          ░             ░        ░   ░        ░ ")
+print("too lazy to put the new ascii art in so here's the old one")
 time.sleep(1)
 print(CREDITS)
 time.sleep(1)
@@ -125,3 +126,4 @@ if __name__ == "__main__":
     info = find_board_info(idx, board, channel, major_version)
     print(f"Found {board} {channel} version {info['version']}")
     download_image(info)
+
