@@ -1,0 +1,27 @@
+import time
+from constants import CREDITS, CROSBREAKER
+
+ASCII_ART = [
+    " ▄████▄        ██▀███        ██▓     ▓█████▄     ",
+    "▒██▀ ▀█       ▓██ ▒ ██▒     ▓██▒     ▒██▀ ██▌    ",
+    "▒▓█    ▄      ▓██ ░▄█ ▒     ▒██▒     ░██   █▌    ",
+    "▒▓▓▄ ▄██▒     ▒██▀▀█▄       ░██░     ░▓█▄   ▌    ",
+    "▒ ▓███▀ ░ ██▓ ░██▓ ▒██▒ ██▓ ░██░ ██▓ ░▒████▓  ██▓",
+    "░ ░▒ ▒  ░ ▒▓▒ ░ ▒▓ ░▒▓░ ▒▓▒ ░▓   ▒▓▒  ▒▒▓  ▒  ▒▓▒",
+    "  ░  ▒    ░▒    ░▒ ░ ▒░ ░▒   ▒ ░ ░▒   ░ ▒  ▒  ░▒ ",
+    "░         ░     ░░   ░  ░    ▒ ░ ░    ░ ░  ░  ░  ",
+    "░ ░        ░     ░       ░   ░    ░     ░      ░ ",
+    "░          ░             ░        ░   ░        ░ ",
+]
+
+def show_banner():
+    for line in ASCII_ART:
+        print(line)
+
+    time.sleep(1)
+    print(CREDITS)
+    time.sleep(1)
+    print(CROSBREAKER)
+    time.sleep(1)
+    print("feel free to modify this in any way, just keep my username!")
+    time.sleep(1)
