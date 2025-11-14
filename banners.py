@@ -45,5 +45,6 @@ def show_banner():
     time.sleep(1)
     print(CROSBREAKER)
     time.sleep(1)
-    print("feel free to modify this in any way, just keep my username!")
+    print("Feel free to modify this in any way, just please keep my username!")
     time.sleep(1)
+    print("Or I WILL find you :]")
