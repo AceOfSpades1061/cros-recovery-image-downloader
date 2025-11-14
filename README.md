@@ -1,6 +1,6 @@
 # CrOS Recovery Image Downloader
 ### A python script made for ease of downloading Recovery Images for ChromeOS Devices
-<img src="https://github.com/AceOfSpades1061/cros-recovery-image-downloader/blob/main/ChromeRecoveryIcon.png?raw=true" alt="The Repo Icon" width="195"/>
+<img src="https://github.com/AceOfSpades1061/cros-recovery-image-downloader/blob/main/branding/ChromeRecoveryIcon.png?raw=true" alt="The Repo Icon" width="195"/>
 
 The only dependency for this is the requests module.
 
