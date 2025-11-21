@@ -1,6 +1,16 @@
-# CrOS Recovery Image Downloader
+<picture>
+  <source
+    srcset="https://github.com/AceOfSpades1061/cros-recovery-image-downloader/blob/main/branding/general%20icon%20dark.png?raw=true"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github.com/AceOfSpades1061/cros-recovery-image-downloader/blob/main/branding/general%20icon%20light.png?raw=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
+</picture>
+
 ### A python script made for ease of downloading Recovery Images for ChromeOS Devices
-<img src="https://github.com/AceOfSpades1061/cros-recovery-image-downloader/blob/main/branding/ChromeRecoveryIcon.png?raw=true" alt="The Repo Icon" width="195"/>
 
 The only dependency for this is the requests module.
 
